@@ -1,0 +1,33 @@
+{
+  "title": "Economy",
+  "fareClasses": [
+    {
+      "purchasedFareClass": "Y or B",
+      "baseMiles": "100%",
+      "bonusMiles": "50%",
+      "total": "150%",
+      "eliteQualifyingMiles": "150%"
+    },
+    {
+      "purchasedFareClass": "H or K",
+      "baseMiles": "100%",
+      "bonusMiles": "25%",
+      "total": "125%",
+      "eliteQualifyingMiles": "125%"
+    },
+    {
+      "purchasedFareClass": "M, L, V, S, N, Q, O, or G",
+      "baseMiles": "100%",
+      "bonusMiles": "0%",
+      "total": "100%",
+      "eliteQualifyingMiles": "100%"
+    },
+    {
+      "purchasedFareClass": "X",
+      "baseMiles": "30%",
+      "bonusMiles": "0%",
+      "total": "30%",
+      "eliteQualifyingMiles": "30%"
+    }
+  ]
+}

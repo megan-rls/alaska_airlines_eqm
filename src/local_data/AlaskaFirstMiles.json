@@ -1,0 +1,26 @@
+{
+  "title": "First Class",
+  "fareClasses": [
+    {
+      "purchasedFareClass": "J",
+      "baseMiles": "100%",
+      "bonusMiles": "100%",
+      "total": "200%",
+      "eliteQualifyingMiles": "200%"
+    },
+    {
+      "purchasedFareClass": "C",
+      "baseMiles": "100%",
+      "bonusMiles": "75%",
+      "total": "175%",
+      "eliteQualifyingMiles": "175%"
+    },
+    {
+      "purchasedFareClass": "D or I",
+      "baseMiles": "100%",
+      "bonusMiles": "50%",
+      "total": "150%",
+      "eliteQualifyingMiles": "150%"
+    }
+  ]
+}
