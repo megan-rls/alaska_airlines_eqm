@@ -1,29 +1,14 @@
 import React from 'react';
-import { ThemeProvider, Container, Stack, Typography } from '@mui/material';
+import { ThemeProvider } from '@mui/material';
 import Header from './components/Header.jsx';
-import BasicTable from './components/BasicTable.jsx';
-import AlaskaFirstMiles from './local_data/AlaskaFirstMiles.json';
-import AlaskaEconomyMiles from './local_data/AlaskaEconomyMiles.json';
 import theme from './theme/theme.jsx'
+import AppRoutes from './AppRoutes.jsx';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header />
-      <Container 
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          pt: 4,
-          pb: 4,
-        }}
-      >
-        <Stack spacing={2} mt={2} width="100%">
-          <BasicTable mileageData={AlaskaFirstMiles}/>
-          <BasicTable mileageData={AlaskaEconomyMiles}/>
-        </Stack>
-      </Container>
+      <AppRoutes />
     </ThemeProvider>
   );
 }
